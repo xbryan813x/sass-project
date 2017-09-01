@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+a {
+  font-style: italic;
+  text-decoration: none; }
+
+body {
+  font-family: "Alegreya Sans", Arial, sans-serif;
+  color: #222222; }
+  @media only screen and (max-width: 960px) {
+    body {
+      font-size: 125%; } }
+
+h1, h2, h3, h4 {
+  font-family: "Titllium Web", Georgia, serif; }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold; }
+
+p {
+  font-family: "Alegreya Sans", Arial, sans-serif; }
+
+a {
+  color: #f27731; }
+  a:hover {
+    color: #ca510d; }
+
+.warning-button {
+  background-color: orange;
+  color: #fff;
+  padding: 8px 12px; }
+  .warning-button:hover {
+    background-color: #ffb733; }
+
+#header {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  height: 60px;
+  background-color: #170a48; }
+  #header #main-menu li {
+    display: inline; }
+  #header #main-menu a {
+    color: white;
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(254, 254, 254, 0);
+    transition: border-bottom .5s;
+    transition-timing-function: ease-in-out; }
+    #header #main-menu a:hover {
+      border-bottom: 1px solid rgba(254, 254, 254, 0.5); }
+
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (max-width: 960px) {
+    #main {
+      width: auto;
+      max-width: 960px; } }
+
+#footer {
+  height: 90px;
+  background-color: #ccf962; }
+
+/*# sourceMappingURL=main.css.map */
