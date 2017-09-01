@@ -1,3 +1,8 @@
+@mixin google-font($font) {
+	$font: unquote($font);
+	@import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
 @mixin warning {
 	background-color: orange;
 	color: #fff;
@@ -9,6 +14,7 @@
 	-moz-box-shadow: $shadows;
 	-webkit-box-shadow: $shadows;
 }
+
 
 @mixin large-text {
 	font: {
